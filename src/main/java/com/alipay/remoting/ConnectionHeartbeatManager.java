@@ -1,4 +1,4 @@
-/**
+/*
  * Licensed to the Apache Software Foundation (ASF) under one or more
  * contributor license agreements.  See the NOTICE file distributed with
  * this work for additional information regarding copyright ownership.
@@ -29,12 +29,12 @@ public interface ConnectionHeartbeatManager {
      * 
      * @param connection
      */
-    public void disableHeartbeat(Connection connection);
+    void disableHeartbeat(Connection connection);
 
     /**
      * enable heart beat for a certain connection
      * 
      * @param connection
      */
-    public void enableHeartbeat(Connection connection);
+    void enableHeartbeat(Connection connection);
 }
